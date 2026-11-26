@@ -1,0 +1,571 @@
+[
+  {
+    "id": "lrhamnosus_gg",
+    "name": "Lacticaseibacillus rhamnosus GG (ATCC 53103)",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Firmicutes",
+      "class": "Bacilli",
+      "order": "Lactobacillales",
+      "family": "Lactobacillaceae",
+      "genus": "Lacticaseibacillus",
+      "species": "rhamnosus",
+      "strain": "GG"
+    },
+    "growth_conditions": {
+      "temperature_min": 15,
+      "temperature_opt": 37,
+      "temperature_max": 45,
+      "ph_min": 3.5,
+      "ph_opt": 6.5,
+      "ph_max": 7.5,
+      "oxygen_requirement": "facultative anaerobe",
+      "nacl_tolerance_percent": 4.0
+    },
+    "health_benefits": [
+      "Prevenção e tratamento de diarreia associada a antibióticos",
+      "Redução de sintomas de síndrome do intestino irritável",
+      "Fortalecimento da barreira intestinal",
+      "Modulação do sistema imunológico",
+      "Prevenção de infecções respiratórias em crianças",
+      "Redução de dermatite atópica em lactentes"
+    ],
+    "mechanisms_of_action": [
+      "Produção de ácido lático e bacteriocinas",
+      "Adesão ao epitélio intestinal via pili SpaCBA",
+      "Estimulação de IgA secretória",
+      "Competição por sítios de adesão com patógenos"
+    ],
+    "safety_status": "QPS",
+    "recommended_dose_cfu": "1e10",
+    "food_applications": ["yogurt", "kefir", "cheese", "juice", "capsules", "infant_formula"],
+    "survival_in_gi_tract": "Alta sobrevivência — resiste a pH 2.5 por 4h e bile 0.3%",
+    "clinical_evidence_level": "strong",
+    "sources": ["bacdive", "probio-ichnos", "literature"],
+    "bacdive_id": 132423
+  },
+  {
+    "id": "lacidophilus_la5",
+    "name": "Lactobacillus acidophilus La-5",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Firmicutes",
+      "class": "Bacilli",
+      "order": "Lactobacillales",
+      "family": "Lactobacillaceae",
+      "genus": "Lactobacillus",
+      "species": "acidophilus",
+      "strain": "La-5"
+    },
+    "growth_conditions": {
+      "temperature_min": 20,
+      "temperature_opt": 37,
+      "temperature_max": 45,
+      "ph_min": 4.0,
+      "ph_opt": 5.5,
+      "ph_max": 7.0,
+      "oxygen_requirement": "facultative anaerobe",
+      "nacl_tolerance_percent": 3.0
+    },
+    "health_benefits": [
+      "Digestão de lactose em intolerantes",
+      "Redução de colesterol sérico",
+      "Produção de vitaminas do complexo B",
+      "Inibição de Helicobacter pylori",
+      "Melhora do perfil lipídico"
+    ],
+    "mechanisms_of_action": [
+      "Produção de β-galactosidase",
+      "Desconjugação de sais biliares",
+      "Produção de acidofilina e acidocina"
+    ],
+    "safety_status": "QPS",
+    "recommended_dose_cfu": "1e9",
+    "food_applications": ["yogurt", "kefir", "cheese", "milk", "ice_cream"],
+    "survival_in_gi_tract": "Boa sobrevivência — tolerância moderada a ácido e bile",
+    "clinical_evidence_level": "strong",
+    "sources": ["bacdive", "literature"],
+    "bacdive_id": 6730
+  },
+  {
+    "id": "lplantarum_299v",
+    "name": "Lactiplantibacillus plantarum 299v",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Firmicutes",
+      "class": "Bacilli",
+      "order": "Lactobacillales",
+      "family": "Lactobacillaceae",
+      "genus": "Lactiplantibacillus",
+      "species": "plantarum",
+      "strain": "299v"
+    },
+    "growth_conditions": {
+      "temperature_min": 10,
+      "temperature_opt": 35,
+      "temperature_max": 45,
+      "ph_min": 3.0,
+      "ph_opt": 6.0,
+      "ph_max": 8.0,
+      "oxygen_requirement": "facultative anaerobe",
+      "nacl_tolerance_percent": 8.0
+    },
+    "health_benefits": [
+      "Alívio de sintomas de SII (inchaço, dor abdominal)",
+      "Melhora da absorção de ferro",
+      "Atividade antioxidante",
+      "Redução de flatulência",
+      "Suporte à saúde cardiovascular"
+    ],
+    "mechanisms_of_action": [
+      "Adesão via proteína de superfície Msa",
+      "Produção de plantaricinas",
+      "Modulação de citocinas anti-inflamatórias",
+      "Metabolismo de compostos fenólicos"
+    ],
+    "safety_status": "QPS",
+    "recommended_dose_cfu": "1e10",
+    "food_applications": ["fermented_vegetables", "juice", "sourdough", "plant_milk", "kombucha", "smoothie"],
+    "survival_in_gi_tract": "Excelente — uma das mais resistentes a condições gástricas",
+    "clinical_evidence_level": "strong",
+    "sources": ["bacdive", "probio-ichnos", "literature"],
+    "bacdive_id": 24067
+  },
+  {
+    "id": "blongum_bb536",
+    "name": "Bifidobacterium longum BB536",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Actinobacteria",
+      "class": "Actinobacteria",
+      "order": "Bifidobacteriales",
+      "family": "Bifidobacteriaceae",
+      "genus": "Bifidobacterium",
+      "species": "longum",
+      "strain": "BB536"
+    },
+    "growth_conditions": {
+      "temperature_min": 25,
+      "temperature_opt": 37,
+      "temperature_max": 43,
+      "ph_min": 4.5,
+      "ph_opt": 6.5,
+      "ph_max": 7.5,
+      "oxygen_requirement": "strict anaerobe",
+      "nacl_tolerance_percent": 2.0
+    },
+    "health_benefits": [
+      "Prevenção de alergias e rinite alérgica",
+      "Modulação da microbiota em idosos",
+      "Melhora da constipação intestinal",
+      "Suporte imunológico (aumento de células NK)",
+      "Redução de infecções respiratórias"
+    ],
+    "mechanisms_of_action": [
+      "Produção de ácido acético e lático",
+      "Degradação de oligossacarídeos do leite humano (HMOs)",
+      "Modulação de Th1/Th2 balance",
+      "Produção de EPS imunomodulador"
+    ],
+    "safety_status": "GRAS",
+    "recommended_dose_cfu": "5e9",
+    "food_applications": ["yogurt", "infant_formula", "milk", "capsules", "cheese"],
+    "survival_in_gi_tract": "Moderada — sensível ao oxigênio, requer microencapsulação",
+    "clinical_evidence_level": "strong",
+    "sources": ["bacdive", "literature"],
+    "bacdive_id": 2849
+  },
+  {
+    "id": "blactis_hn019",
+    "name": "Bifidobacterium animalis subsp. lactis HN019",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Actinobacteria",
+      "class": "Actinobacteria",
+      "order": "Bifidobacteriales",
+      "family": "Bifidobacteriaceae",
+      "genus": "Bifidobacterium",
+      "species": "animalis subsp. lactis",
+      "strain": "HN019"
+    },
+    "growth_conditions": {
+      "temperature_min": 25,
+      "temperature_opt": 39,
+      "temperature_max": 45,
+      "ph_min": 4.0,
+      "ph_opt": 6.5,
+      "ph_max": 7.5,
+      "oxygen_requirement": "anaerobe",
+      "nacl_tolerance_percent": 2.5
+    },
+    "health_benefits": [
+      "Melhora do trânsito intestinal e constipação",
+      "Fortalecimento da imunidade inata",
+      "Aumento da atividade fagocítica",
+      "Suporte em dietas para perda de peso",
+      "Redução de inchaço abdominal"
+    ],
+    "mechanisms_of_action": [
+      "Produção de AGCC (ácidos graxos de cadeia curta)",
+      "Estímulo de fagócitos e células NK",
+      "Redução do tempo de trânsito colônico"
+    ],
+    "safety_status": "GRAS",
+    "recommended_dose_cfu": "1e9",
+    "food_applications": ["yogurt", "kefir", "milk", "cheese", "ice_cream", "capsules"],
+    "survival_in_gi_tract": "Boa — mais tolerante ao oxigênio que outras bifidobactérias",
+    "clinical_evidence_level": "strong",
+    "sources": ["bacdive", "probio-ichnos", "literature"],
+    "bacdive_id": 3014
+  },
+  {
+    "id": "sboulardii_cncm",
+    "name": "Saccharomyces boulardii CNCM I-745",
+    "taxonomy": {
+      "domain": "Eukarya",
+      "phylum": "Ascomycota",
+      "class": "Saccharomycetes",
+      "order": "Saccharomycetales",
+      "family": "Saccharomycetaceae",
+      "genus": "Saccharomyces",
+      "species": "boulardii",
+      "strain": "CNCM I-745"
+    },
+    "growth_conditions": {
+      "temperature_min": 20,
+      "temperature_opt": 37,
+      "temperature_max": 42,
+      "ph_min": 2.0,
+      "ph_opt": 5.5,
+      "ph_max": 8.0,
+      "oxygen_requirement": "aerobe",
+      "nacl_tolerance_percent": 5.0
+    },
+    "health_benefits": [
+      "Prevenção e tratamento de diarreia por C. difficile",
+      "Diarreia do viajante",
+      "Diarreia associada a antibióticos",
+      "Suporte em doença inflamatória intestinal",
+      "Proteção contra infecções por rotavírus"
+    ],
+    "mechanisms_of_action": [
+      "Produção de proteases que degradam toxinas A e B de C. difficile",
+      "Secreção de fosfatases que inativam LPS",
+      "Estímulo de IgA secretória",
+      "Efeito trófico na mucosa intestinal"
+    ],
+    "safety_status": "GRAS",
+    "recommended_dose_cfu": "5e9",
+    "food_applications": ["capsules", "sachets", "kombucha", "fermented_beverages"],
+    "survival_in_gi_tract": "Excelente — levedura termotolerante, resiste ao ácido gástrico",
+    "clinical_evidence_level": "strong",
+    "sources": ["bacdive", "literature"],
+    "bacdive_id": null
+  },
+  {
+    "id": "lreuteri_dsm17938",
+    "name": "Limosilactobacillus reuteri DSM 17938",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Firmicutes",
+      "class": "Bacilli",
+      "order": "Lactobacillales",
+      "family": "Lactobacillaceae",
+      "genus": "Limosilactobacillus",
+      "species": "reuteri",
+      "strain": "DSM 17938"
+    },
+    "growth_conditions": {
+      "temperature_min": 20,
+      "temperature_opt": 37,
+      "temperature_max": 42,
+      "ph_min": 3.5,
+      "ph_opt": 6.0,
+      "ph_max": 7.5,
+      "oxygen_requirement": "facultative anaerobe",
+      "nacl_tolerance_percent": 3.0
+    },
+    "health_benefits": [
+      "Redução de cólicas em lactentes",
+      "Melhora de regurgitação funcional",
+      "Suporte à saúde oral (redução de S. mutans)",
+      "Modulação do metabolismo de vitamina D",
+      "Efeitos anti-inflamatórios intestinais"
+    ],
+    "mechanisms_of_action": [
+      "Produção de reuterina (3-HPA — antimicrobiano de amplo espectro)",
+      "Modulação de histamina via hdcA",
+      "Adesão a células epiteliais intestinais e orais",
+      "Produção de ácido lático tipo L(+)"
+    ],
+    "safety_status": "QPS",
+    "recommended_dose_cfu": "1e8",
+    "food_applications": ["drops", "capsules", "yogurt", "juice", "infant_formula"],
+    "survival_in_gi_tract": "Boa — coloniza transitoriamente o TGI",
+    "clinical_evidence_level": "strong",
+    "sources": ["bacdive", "probio-ichnos", "literature"],
+    "bacdive_id": 15648
+  },
+  {
+    "id": "sthermophilus",
+    "name": "Streptococcus thermophilus (cepas probióticas)",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Firmicutes",
+      "class": "Bacilli",
+      "order": "Lactobacillales",
+      "family": "Streptococcaceae",
+      "genus": "Streptococcus",
+      "species": "thermophilus",
+      "strain": ""
+    },
+    "growth_conditions": {
+      "temperature_min": 20,
+      "temperature_opt": 42,
+      "temperature_max": 50,
+      "ph_min": 4.5,
+      "ph_opt": 6.5,
+      "ph_max": 7.5,
+      "oxygen_requirement": "facultative anaerobe",
+      "nacl_tolerance_percent": 2.5
+    },
+    "health_benefits": [
+      "Digestão de lactose (produção de β-galactosidase)",
+      "Prevenção de diarreia por antibióticos (em combinação)",
+      "Produção de folato e vitamina B12",
+      "Atividade antioxidante"
+    ],
+    "mechanisms_of_action": [
+      "Alta produção de β-galactosidase termoestável",
+      "Produção de EPS com propriedades prebióticas",
+      "Acidificação rápida do meio"
+    ],
+    "safety_status": "QPS",
+    "recommended_dose_cfu": "1e9",
+    "food_applications": ["yogurt", "cheese", "fermented_milk", "ice_cream"],
+    "survival_in_gi_tract": "Baixa a moderada — principal valor tecnológico na fermentação",
+    "clinical_evidence_level": "moderate",
+    "sources": ["bacdive", "literature"],
+    "bacdive_id": 13039
+  },
+  {
+    "id": "lcasei_shirota",
+    "name": "Lacticaseibacillus casei Shirota",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Firmicutes",
+      "class": "Bacilli",
+      "order": "Lactobacillales",
+      "family": "Lactobacillaceae",
+      "genus": "Lacticaseibacillus",
+      "species": "casei",
+      "strain": "Shirota"
+    },
+    "growth_conditions": {
+      "temperature_min": 15,
+      "temperature_opt": 37,
+      "temperature_max": 45,
+      "ph_min": 3.0,
+      "ph_opt": 6.0,
+      "ph_max": 7.5,
+      "oxygen_requirement": "facultative anaerobe",
+      "nacl_tolerance_percent": 4.0
+    },
+    "health_benefits": [
+      "Modulação da microbiota intestinal",
+      "Prevenção de infecções do trato urinário",
+      "Redução de estresse e ansiedade (eixo intestino-cérebro)",
+      "Suporte imunológico (aumento de células NK)",
+      "Prevenção de câncer de bexiga (estudos observacionais)"
+    ],
+    "mechanisms_of_action": [
+      "Sobrevivência excepcional no TGI",
+      "Modulação de IL-12 e IFN-γ",
+      "Produção de ácido lático tipo L(+)",
+      "Interação com células dendríticas via PAMP"
+    ],
+    "safety_status": "QPS",
+    "recommended_dose_cfu": "1e10",
+    "food_applications": ["fermented_milk", "yogurt", "juice", "capsules"],
+    "survival_in_gi_tract": "Excelente — uma das cepas mais estudadas para sobrevivência GI",
+    "clinical_evidence_level": "strong",
+    "sources": ["bacdive", "literature"],
+    "bacdive_id": 24068
+  },
+  {
+    "id": "bcoagulans_gbi30",
+    "name": "Bacillus coagulans GBI-30 (BC30)",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Firmicutes",
+      "class": "Bacilli",
+      "order": "Bacillales",
+      "family": "Bacillaceae",
+      "genus": "Bacillus",
+      "species": "coagulans",
+      "strain": "GBI-30, 6086"
+    },
+    "growth_conditions": {
+      "temperature_min": 30,
+      "temperature_opt": 50,
+      "temperature_max": 60,
+      "ph_min": 4.0,
+      "ph_opt": 6.0,
+      "ph_max": 8.0,
+      "oxygen_requirement": "facultative anaerobe",
+      "nacl_tolerance_percent": 5.0
+    },
+    "health_benefits": [
+      "Suporte digestivo (digestão de proteínas)",
+      "Melhora da absorção de nutrientes",
+      "Redução de dor e inchaço em SII",
+      "Suporte imunológico (aumento de células T)",
+      "Recuperação muscular pós-exercício"
+    ],
+    "mechanisms_of_action": [
+      "Formação de esporos termorresistentes",
+      "Produção de ácido lático tipo L(+) no intestino",
+      "Produção de enzimas proteolíticas e amilolíticas",
+      "Coagulação do leite (uso em fermentação)"
+    ],
+    "safety_status": "GRAS",
+    "recommended_dose_cfu": "1e9",
+    "food_applications": ["bars", "chocolate", "coffee", "baked_goods", "capsules", "protein_powder", "hot_beverages"],
+    "survival_in_gi_tract": "Excepcional — esporos resistem a 100°C, ácido gástrico e bile",
+    "clinical_evidence_level": "moderate",
+    "sources": ["bacdive", "literature"],
+    "bacdive_id": null
+  },
+  {
+    "id": "lhelveticus_r0052",
+    "name": "Lactobacillus helveticus R0052",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Firmicutes",
+      "class": "Bacilli",
+      "order": "Lactobacillales",
+      "family": "Lactobacillaceae",
+      "genus": "Lactobacillus",
+      "species": "helveticus",
+      "strain": "R0052"
+    },
+    "growth_conditions": {
+      "temperature_min": 25,
+      "temperature_opt": 42,
+      "temperature_max": 50,
+      "ph_min": 4.0,
+      "ph_opt": 5.5,
+      "ph_max": 7.0,
+      "oxygen_requirement": "facultative anaerobe",
+      "nacl_tolerance_percent": 2.0
+    },
+    "health_benefits": [
+      "Redução de estresse e ansiedade (eixo intestino-cérebro)",
+      "Melhora da qualidade do sono",
+      "Redução de cortisol salivar",
+      "Produção de peptídeos bioativos (IPP, VPP — anti-hipertensivos)",
+      "Melhora cognitiva em idosos"
+    ],
+    "mechanisms_of_action": [
+      "Alta atividade proteolítica — libera peptídeos anti-hipertensivos do leite",
+      "Modulação do eixo HPA (hipotálamo-hipófise-adrenal)",
+      "Produção de GABA",
+      "Interação com sistema serotoninérgico intestinal"
+    ],
+    "safety_status": "QPS",
+    "recommended_dose_cfu": "3e9",
+    "food_applications": ["yogurt", "cheese", "fermented_milk", "capsules"],
+    "survival_in_gi_tract": "Moderada — benefícios derivam principalmente de metabólitos",
+    "clinical_evidence_level": "moderate",
+    "sources": ["bacdive", "literature"],
+    "bacdive_id": 7349
+  },
+  {
+    "id": "bbreve_m16v",
+    "name": "Bifidobacterium breve M-16V",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Actinobacteria",
+      "class": "Actinobacteria",
+      "order": "Bifidobacteriales",
+      "family": "Bifidobacteriaceae",
+      "genus": "Bifidobacterium",
+      "species": "breve",
+      "strain": "M-16V"
+    },
+    "growth_conditions": {
+      "temperature_min": 25,
+      "temperature_opt": 37,
+      "temperature_max": 42,
+      "ph_min": 4.5,
+      "ph_opt": 6.8,
+      "ph_max": 7.5,
+      "oxygen_requirement": "strict anaerobe",
+      "nacl_tolerance_percent": 1.5
+    },
+    "health_benefits": [
+      "Prevenção de enterocolite necrosante em prematuros",
+      "Redução de alergias alimentares em lactentes",
+      "Modulação da composição da microbiota neonatal",
+      "Redução de dermatite atópica",
+      "Maturação do sistema imunológico infantil"
+    ],
+    "mechanisms_of_action": [
+      "Produção de ácido acético (proporção acetato:lactato alta)",
+      "Degradação de HMOs e GOS",
+      "Modulação de IgE e Th2",
+      "Competição com Clostridium spp."
+    ],
+    "safety_status": "QPS",
+    "recommended_dose_cfu": "5e9",
+    "food_applications": ["infant_formula", "yogurt", "drops", "sachets"],
+    "survival_in_gi_tract": "Moderada — requer proteção contra oxigênio",
+    "clinical_evidence_level": "strong",
+    "sources": ["bacdive", "probio-ichnos", "literature"],
+    "bacdive_id": 2873
+  },
+  {
+    "id": "lfermentum_me3",
+    "name": "Lactobacillus fermentum ME-3",
+    "taxonomy": {
+      "domain": "Bacteria",
+      "phylum": "Firmicutes",
+      "class": "Bacilli",
+      "order": "Lactobacillales",
+      "family": "Lactobacillaceae",
+      "genus": "Limosilactobacillus",
+      "species": "fermentum",
+      "strain": "ME-3"
+    },
+    "growth_conditions": {
+      "temperature_min": 20,
+      "temperature_opt": 37,
+      "temperature_max": 45,
+      "ph_min": 3.5,
+      "ph_opt": 6.0,
+      "ph_max": 7.5,
+      "oxygen_requirement": "facultative anaerobe",
+      "nacl_tolerance_percent": 3.5
+    },
+    "health_benefits": [
+      "Potente atividade antioxidante (Trolox equivalente)",
+      "Aumento de glutationa sanguínea",
+      "Redução de LDL oxidado",
+      "Suporte cardiovascular",
+      "Quelação de metais pesados"
+    ],
+    "mechanisms_of_action": [
+      "Produção de glutationa (GSH) intracelular",
+      "Sistema Mn-SOD (superóxido dismutase)",
+      "Capacidade de reciclar glutationa oxidada (GSSG → GSH)",
+      "Quelação de ferro e cobre"
+    ],
+    "safety_status": "QPS",
+    "recommended_dose_cfu": "1e9",
+    "food_applications": ["fermented_milk", "yogurt", "cheese", "kefir", "capsules"],
+    "survival_in_gi_tract": "Boa — tolerante a ácido e bile",
+    "clinical_evidence_level": "moderate",
+    "sources": ["bacdive", "literature"],
+    "bacdive_id": null
+  }
+]
